@@ -4,7 +4,7 @@ from settings import Settings
 from ship import Ship
 class AlienInvasion:
     """overall class to manage assets and behavior"""
-    def __int__(self):
+    def __init__(self):
         """initialize the game and create game resources"""
         pygame.init()
         self.settings = Settings()
